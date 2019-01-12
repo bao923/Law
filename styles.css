@@ -55,9 +55,13 @@ h5 {
   font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;
   padding-bottom: 20px; }
 
-.p.figcaptiontext{
-  padding-top: 36px;}
-
+.figcaptiontext{
+padding-top: 36px;
+line-height: 32px;
+color: black;
+padding-bottom: 20px;
+font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;
+font-size: 19px;}
 
 .btn {
   font-size: 13px;
