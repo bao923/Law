@@ -166,21 +166,7 @@ a {
   transition-property: color, border-color, background-color; }
 
 
-a.two:hover {
-  color: #C4A199;
-  background-color: transparent;
-  text-decoration: underline;
-}
-a.two:link {
-  color:#133F6B !important;
-  background-color: transparent;
-  text-decoration: none;
-}
 
-
-a:hover, a:focus {
-  color: #C4A199;
-  text-decoration: none; }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -837,7 +823,7 @@ footer {
   footer p {
     color: white;
     font-size: 18px;
-    line-height: 2px;
+    line-height: 2px !important;
     cursor: default;}
   footer a {
     color: #fff; }
