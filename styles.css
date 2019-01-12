@@ -30,12 +30,9 @@ h3 {
   margin-top: 110px;
 }
 
-#expertiseheading {
-font-size: 34px;
-margin-bottom: 39px;
-color: white !important;
-font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;
-margin-top: 110px;
+h3.class1
+{
+color: white;
 }
 
 h4 {
@@ -848,9 +845,10 @@ footer {
   footer a:hover {
     color: #FF5274; }
   footer ul.footer-group {
-    border-top: solid 1px #4E566C;
-    padding-top: 25px;
-    margin-bottom: 45px; }
+    border-top: solid 0px #4E566C;
+    padding-top: 5px;
+    margin-bottom: -103px; }
+
   footer ul.footer-group li {
     display: inline-block; }
   footer ul.footer-group li a {
@@ -861,7 +859,8 @@ footer {
   footer ul.footer-group li {
     margin-right: 30px; }
   footer ul.footer-group li:last-child {
-    margin-right: 0; }
+    margin-right: -414px; }
+
   footer span.fa-heart {
     color: #ff415c;
     font-size: 15px;
