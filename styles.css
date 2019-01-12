@@ -11,6 +11,10 @@ p {
   font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;
   font-size: 19px;}
 
+p.class1{
+  padding-top: 25px;
+}
+
 h1 {
   font-size: 71px;
   font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;}
