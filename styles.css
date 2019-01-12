@@ -173,7 +173,7 @@ a.two:hover {
   text-decoration: underline;
 }
 a.two:link {
-  color:#133F6B;
+  color:#133F6B !important;
   background-color: transparent;
   text-decoration: none;
 }
