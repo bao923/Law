@@ -35,8 +35,7 @@ h3 {
   margin-top: 110px;
 }
 
-h3.class1
-{
+h3.class1 {
 color: white;
 }
 
@@ -55,10 +54,9 @@ h5 {
   font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;
   padding-bottom: 20px; }
 
-.figcaptiontext{
+.p.class1{
 padding-top: 36px;
 line-height: 32px;
-color: black;
 padding-bottom: 20px;
 font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;
 font-size: 19px;}
@@ -168,11 +166,6 @@ a {
   transition-property: color, border-color, background-color; }
 
 
-a.two:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
 a.two:hover {
   color: #C4A199;
   background-color: transparent;
@@ -844,7 +837,7 @@ footer {
   footer p {
     color: white;
     font-size: 18px;
-    line-height: 14px;
+    line-height: 2px;
     cursor: default;}
   footer a {
     color: #fff; }
@@ -852,7 +845,7 @@ footer {
     color: #FF5274; }
   footer ul.footer-group {
     border-top: solid 0px #4E566C;
-    padding-top: 5px;
+    padding-top: 7px;
     margin-bottom: -103px; }
 
   footer ul.footer-group li {
