@@ -30,10 +30,10 @@ h3 {
   margin-top: 110px;
 }
 
-.expertiseheading{
+#expertiseheading {
 font-size: 34px;
 margin-bottom: 39px;
-color: white;
+color: white !important;
 font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;
 margin-top: 110px;
 }
