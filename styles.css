@@ -30,6 +30,13 @@ h3 {
   margin-top: 110px;
 }
 
+.expertiseheading{
+font-size: 34px;
+margin-bottom: 39px;
+color: white;
+font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;
+margin-top: 110px;
+}
 
 h4 {
 font-size: 19px;
@@ -42,7 +49,6 @@ h5 {
   font-size: 18px;
   line-height: 30px;
   color: #3D4351;
-  text-transform: lowercase !important;
   font-weight: 500;
   font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;
 padding-bottom: 20px; }
@@ -51,7 +57,6 @@ padding-bottom: 20px; }
 font-size: 18px;
 line-height: 30px;
 color: #3D4351;
-text-transform: lowercase !important;
 font-weight: 500;
 font-family: lato,"Lucida Grande", Tahoma, Sans-Serif;
 padding-top: 36px; }
@@ -88,10 +93,13 @@ padding-top: 36px; }
   font-size: 18px;
   background-color: #c4a199;
   padding: 17px 61px;
-margin: 77px;
-    margin-bottom: 77px;
-margin-bottom: -22px;
-cursor: help;}
+margin: 30px;
+    margin-bottom: 30px;
+margin-bottom: -19px;
+cursor: help;
+padding-right: 53px;
+  padding-left: 50px;}
+
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
@@ -157,9 +165,22 @@ a {
   transition-property: color, border-color, background-color; }
 
 
-  a.two:link {color:black;}
-  a.two:visited {color:black;}
-  a.two:hover {background:#CAA69B;}
+a.two:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.two:hover {
+  color: #C4A199;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a.two:link {
+  color:#133F6B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 
 a:hover, a:focus {
   color: #C4A199;
@@ -182,8 +203,13 @@ body {
 ul li {
   list-style: none; }
 
-.section-padding {
-  padding: 120px 0; }
+
+  .section-padding {
+    padding: 190px 0;
+        padding-top: 190px;
+        padding-right: 0px;
+        padding-bottom: 190px;
+        padding-left: 0px;}
 
 .ourstorysection-padding{
   padding: 50px 0; }
