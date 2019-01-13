@@ -800,10 +800,12 @@ Footer
 ========================================================================== */
 footer {
   background-color: #CAA69B;
-  position: relative; }
+  position: relative;
+  height: 350px;}
   footer p {
     color: white;
     font-size: 18px;
+    line-height: 2px;
     cursor: default;}
   footer a {
     color: #fff; }
@@ -811,7 +813,7 @@ footer {
     color: #FF5274; }
   footer ul.footer-group {
     border-top: solid 1px #4E566C;
-    padding-top: 25px;
+    padding-top: 5px;
     margin-bottom: 45px; }
   footer ul.footer-group li {
     display: inline-block; }
@@ -824,6 +826,7 @@ footer {
     margin-right: 30px; }
   footer ul.footer-group li:last-child {
     margin-right: 0; }
+
   footer span.fa-heart {
     color: #ff415c;
     font-size: 15px;
