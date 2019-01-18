@@ -417,7 +417,14 @@ Hero
 /* Landscape */
 @media only screen
  (min-device-width: 320px)and (max-width: 500px)  {
-.hero{ background: url("../img/hero1.png") center center no-repeat;
+.hero{ background: url("../img/hero1.png") no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 }
 
