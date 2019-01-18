@@ -414,9 +414,22 @@ Hero
   position: relative;
 }
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    /* styles for Retina-type displays */
+}
+
 /* Landscape */
-@media only screen
- (min-device-width: 320px)and (max-width: 500px)  {
+@media only screen and (max-width: 360px) {
+    /* styles for narrow screens */
+}
+
 .hero{ background: url("../img/hero1.png") no-repeat center center fixed;
 
     -webkit-background-size: cover;
