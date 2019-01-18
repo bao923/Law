@@ -408,7 +408,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 950px;
-  background: url("../img/hero1.png") center center;
+  background: url("../img/hero1.png") center center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -416,8 +416,8 @@ Hero
 
 /* Landscape */
 @media only screen
- and (min-device-width: 320px)and (max-width: 500px)  {
-.hero{ background: url("../img/hero1.png") center center;
+ (min-device-width: 320px)and (max-width: 500px)  {
+.hero{ background: url("../img/hero1.png") center center no-repeat;
 }
 }
 
