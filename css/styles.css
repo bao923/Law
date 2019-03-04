@@ -27,7 +27,7 @@ h3 {
   margin-bottom: 39px;
   color: black;
   font-family: lato;
-  margin-top: 110px;
+  margin-top: 130px;
 }
 
 
@@ -707,6 +707,13 @@ Features-stack
   .blog figcaption a.blog-post-title:hover, .blog figcaption a.blog-post-title:focus {
     color: #C4A199; }
 
+.press-row {
+padding-bottom: 35px;
+}
+
+.press-padding {
+  padding: 35px;
+}
 
 /* ==========================================================================
 .testimonial-slider
