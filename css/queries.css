@@ -263,6 +263,14 @@
 			padding-top: 41%;
 		}
 
+		.hero {
+
+		  background: url("../img/hero1.png") center center no-repeat;
+		  background-size:cover;
+		  background-attachment: fixed;
+		  position: relative;
+		}
+
 		.hero .btn {
 			display: block;
 			width: 80%;
@@ -274,8 +282,14 @@
 		}
 
 		.hero h1 {
-			font-size: 50px;
+			font-size: 25px;
+			line-height: 35px;
 		}
+		.h2hero{
+			font-size: 19px;
+	    font-family: 'Roboto', sans-serif;
+	    color: white;
+	    line-height: 31px;}
 
 		.btn-margin-right {
 			margin-right: 0px;
