@@ -14,19 +14,23 @@ p {
 h1 {
   font-size: 70px; }
 
-
+.h2hero{
+font-size: 39px;
+font-weight: 400;
+font-family: 'Roboto', sans-serif;
+color:white;}
 
 h2 {
-  font-size: 37px;
+  font-size: 42px;
 font-weight: 400;
-font-family: lato;"Lucida Grande", Tahoma, Sans-Serif;
-color:white;}
+font-family: 'Roboto', sans-serif;
+color:black;}
 
 h3 {
   font-size: 34px;
   margin-bottom: 39px;
   color: black;
-  font-family: lato;
+font-family: 'Roboto', sans-serif;
   margin-top: 125px;
 }
 
@@ -51,7 +55,7 @@ h3 {
 h4 {
 font-size: 19px;
 color: white;
-font-family: lato;
+font-family: 'Roboto', sans-serif;
 line-height: 32px;
 }
 
@@ -75,7 +79,7 @@ h5 {
   color: #3D4351;
   text-transform: uppercase;
   font-weight: 500;
-  font-family: lato;
+  font-family: 'Roboto', sans-serif;
 padding-bottom: 20px; }
 
 .figcaptiontext{
@@ -84,7 +88,7 @@ line-height: 30px;
 color: #3D4351;
 text-transform: uppercase;
 font-weight: 500;
-font-family: lato;
+font-family: 'Roboto', sans-serif;
 padding-top: 36px; }
 
 .btn {
@@ -155,7 +159,7 @@ section.features, section.blog-intro, section.blog {
 
 .version-one{
   font-size: 34px;
-  font-family: lato;
+  font-family: 'Roboto', sans-serif;
   color: black;
   margin-top: 12px}
 /* ==========================================================================
@@ -194,7 +198,7 @@ a:hover, a:focus {
   text-decoration: none; }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: rgba(28, 54, 83, 0.6);
   -webkit-text-size-adjust: 100%; }
@@ -223,7 +227,7 @@ text-align: left;}
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.4;
@@ -480,13 +484,13 @@ only screen and (min-resolution: 2dppx) {
   .hero h1 {
     color: #fff;
     margin-bottom: 40px;
-    font-family: lato;}
+    font-family: 'Roboto', sans-serif;}
   .hero p.intro {
     color: #fff;
     font-size: 36px;
     font-weight: 400;
         margin-bottom: 80px;
-    font-family: lato;}
+    font-family: 'Roboto', sans-serif;}
   .hero .hero-content {
     padding-top: 26%; }
 
@@ -680,7 +684,7 @@ Features-stack
   position: initial;}
 
   .hero-strip i {
-    font-family: "Nunito", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 25px;
     color: #F69D52;
@@ -690,7 +694,7 @@ Features-stack
   .hero-strip h2 {
     color: white;
     font-size: 42px;
-    font-family: lato;
+    font-family: 'Roboto', sans-serif;
         margin: 0 0 20px 0; }
   .hero-strip p {
     color: #ACB1B4; }
