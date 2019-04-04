@@ -21,7 +21,7 @@ font-family: 'Roboto', sans-serif;
 color:white;}
 
 h2 {
-  font-size: 42px;
+font-size: 42px;
 font-weight: 400;
 font-family: 'Roboto', sans-serif;
 color:black;}
@@ -74,7 +74,7 @@ line-height: 32px;
     margin: 3% 3% 3% -0.4%;
 }
 h5 {
-  font-size: 16px;
+  font-size: 19px;
   line-height: 30px;
   color: #3D4351;
   text-transform: uppercase;
@@ -782,10 +782,13 @@ padding-bottom: 35px;
       height: auto; }
   .testimonial-slider h2 {
     color: #fff;
-    font-size: 40px;
-    font-weight: 300;
-    font-style: italic;
-    margin: 30px 0; }
+      font-size: 26px;
+      height: 250px;
+      line-height: 2em;
+      font-style: normal;
+      margin: 30px 0;
+      font-family: 'Roboto', sans-serif;
+      opacity: 0.8; }
   .testimonial-slider p {
     color: #ACB1B4;
     text-transform: uppercase;
