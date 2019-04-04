@@ -130,7 +130,7 @@ cursor: help;}
   border-color: #173E69; }
 
 .btn-small {
-  padding: 8px 40px; }
+  padding:  9px 32px; }
 
 .btn-large {
   padding: 15px 40px; }
@@ -530,10 +530,13 @@ header {
         padding-right: 25px; }
         header ul.primary-nav li a:hover {
           color: #E5BDB3 }
-      header ul.primary-nav li:last-child a {
-        padding-right: 41px;
-        padding-top: 10px;
-          cursor: help;}
+
+
+          header ul.primary-nav li:last-child a {
+    padding-right: 25px;
+    padding-top: 4px 4px 4px 7px;
+    cursor: help;}
+
   header ul.member-actions li {
     display: inline; }
     header ul.member-actions li a {
