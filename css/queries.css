@@ -260,8 +260,13 @@
 
 	@media screen and (max-width:480px) {
 		.hero-strip {
-		    background-colo:#2f487b;
 
+				  margin-top: -50px;
+					background-colo:#2f487b;
+				  background: #2f487b url("../img/repmatter.png") no-repeat center center;
+				  padding-bottom: 129px;
+					opacity: 10%
+				  position: initial;}
 }
 
 		.hero .hero-content {
