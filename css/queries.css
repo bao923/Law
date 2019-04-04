@@ -266,9 +266,9 @@
 		.hero {
 		  background: url("../img/hero1.png") center center no-repeat;
 		  background-size:cover;
-			min-height: -webkit-fill-available;
+			min-height: min-content;
 		  background-attachment: fixed;
-		  position: relative;
+		  position: inherit;
 		}
 
 		.hero .btn {
