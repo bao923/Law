@@ -264,9 +264,9 @@
 		}
 
 		.hero {
-
 		  background: url("../img/hero1.png") center center no-repeat;
 		  background-size:cover;
+			min-height: -webkit-fill-available;
 		  background-attachment: fixed;
 		  position: relative;
 		}
