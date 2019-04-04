@@ -285,12 +285,17 @@
 			margin-bottom: 20px;
 		}
 
+ .h1{
+
+	   font-size: 33px;
+    line-height: 35px;
+ }
 		.hero h1 {
 			font-size: 19px;
 			line-height: 18px;
 		}
 		.h2hero{
-			font-size: 12px;
+			font-size: 19px;
 	    font-family: 'Roboto', sans-serif;
 	    color: white;
 	    line-height: 31px;}
