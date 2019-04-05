@@ -466,7 +466,6 @@ only screen and (min-resolution: 2dppx) {
 /* Landscape */
 @media only screen and (max-width: 360px) {
     /* styles for narrow screens */
-}
 
 .hero{ background: url("../img/hero1.png") no-repeat center center fixed;
 
@@ -477,6 +476,14 @@ only screen and (min-resolution: 2dppx) {
     height: 100%;
     overflow: hidden;
 }
+
+p {
+    line-height: 29px;
+    color: black;
+    margin: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+  }
 }
 
 
