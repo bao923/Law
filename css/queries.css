@@ -269,6 +269,15 @@
 
 	@media screen and (max-width:480px) {
 
+		.p {
+		    line-height: 28px;
+		    color: black;
+		    padding: 7%;
+		    font-family: 'Roboto', sans-serif;
+		    font-size: 15px;
+		    text-align: center;
+			}
+
 		.hero .hero-content {
 			padding-top: 41%;
 		}
