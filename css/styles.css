@@ -770,11 +770,14 @@ padding-bottom: 35px;
 }
 
 .press-padding {
-  padding: 35px;
+  padding: 85px;
 }
 
 .img-press{
-  padding-bottom:22px;
+
+  padding-bottom:32px;
+  padding-left:32px;
+  padding-right:32px;
 }
 
 /* ==========================================================================
